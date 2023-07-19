@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Work+Sans:wght@100;200;300;400;500;600;700;800&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    font-family: 'Work Sans', sans-serif;
+}
+nav{
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+.navdiv{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px 0 30px 0;
+}
+.navone{
+    display: flex;
+    align-items: center;
+}
+.navone h1{
+    text-align: center;
+    font-size: 45px;
+    font-weight: 700;
+}
+.navtwo ul{
+    display: flex;
+    list-style: none;
+}
+nav li{
+    margin-left: 30px;
+    color: #3C354F;
+    /* text-align: center; */
+    font-size: 18px;
+    font-weight: 500;
+}
+.navone img{
+    width: 90px;
+    height: 45px;
+    padding-right: 10px;
+}
+#spanone{
+    color: #F144AE;
+}
+/* #spantwo{
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    padding: 15px; */
+}
+#spanfour{
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    padding: 15px;
+}
+#spanfour img{
+    width: 20px;
+    
+}
+/* nav section end here  */
+
+.headcontainer{
+    background-image: url(./images/Group\ 14.png);
+    fill: linear-gradient(223deg, rgba(140, 87, 238, 0.03) 0%, rgba(241, 68, 174, 0.03) 100%);
+    background-size: 51vw;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px;
+}
+.onebtn{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 15px 40px;
+    border-radius: 40px;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    border: none;
+}
+.twobtn{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 15px 40px;
+    border-radius: 40px;
+    background: #4EC5F7;
+    border: none;
+}
+.onediv{
+    /* background-image: url(./images/Group\ 14.png); */
+}
+.oneimage img{
+    width: 480px;
+}
+.onediv h3{
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.onediv h1{
+    font-family: Work Sans;
+    font-size: 95px;
+    font-weight: 800;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.onediv p{
+    color: #534C64;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 0px 0px 10px 0px;
+}
+/* header section end here  */
+
+.mainimage img{
+    width: 220px;
+}
+.mainimage p{
+    color: #534C64;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+}
+.maincontainer{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+.headpara{
+    text-align: center;
+}
+.headpara h3{
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+#spanthre{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 48px;
+    font-weight: 700;
+}
+.headpara p{
+    color: #534C64;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding-bottom: 30px;
+}
+main{
+    margin-top: 80px;
+}
