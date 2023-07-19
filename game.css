@@ -216,7 +216,7 @@ main{
     /* background: #0b022317; */
 }
 .container p{
-    padding-top: 300px;
+    padding-top: 290px;
 }
 .sectionsecond{
     margin-top: 150px;
@@ -427,13 +427,47 @@ main{
         flex-direction: column;
         gap: 40px;
         background-size: 100vw;
+        /* background-size: 75vh; */
     }
-    .oneimage{
+    .oneimage img{
         width: 100%;
         /* padding-right: 50px; */
         margin-top: 50px;
     }
     .onediv{
-        /* padding-right: 50px; */
+        padding-top: 10px;
+    }
+    .container{
+        flex-direction: column;
+        gap: 80px;
+        align-items: center;
+    }
+    .sectiontwo{
+        padding: 50px;
+    }
+    main{
+        margin-top: 50px;
+    }
+    .secondcontainer{
+        flex-direction: column;
+    }
+    .secondimg{
+        
+    }
+    .secondtext{
+        text-align: center;
+        padding-bottom: 50px;
+    }
+    .secondtext h3{
+        font-size: 30px;
+        /* font-weight: 500; */
+        /* break-after: avoid; */
+    }
+    .sectionsecond{
+        margin-right: 200px;
+    }
+    .imageone{
+        width: 400px;
+        margin-right: 80px;
     }
 }
