@@ -168,35 +168,52 @@ main{
     justify-content: center;
     gap: 10px;
 }
+.tag{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 800;
+    color: #e70a7d;
+    position: absolute;
+    bottom: 90px;
+    left: 35px;
+}
 .onecard{
-    width: 280px;
-    height: 370px;
-    background-image: url(./images/Rectangle\ 4.png);
+    width: 240px;
+    height: 280px;
+    background-image: url(./images/Rectangle\ 4\ \(1\)\ \(1\).png);
 }
 .twocard{
-    width: 280px;
-    height: 370px;
-    background-image: url(./images/Rectangle\ 5.png);
+    width: 240px;
+    height: 280px;
+    background-image: url(./images/Rectangle\ 5\ \(1\)\ \(1\).png);
+
 }
 .threcard{
-    width: 280px;
-    height: 370px;
-    background-image: url(./images/Rectangle\ 7.png);
+    width: 240px;
+    height: 280px;
+    background-image: url(./images/Rectangle\ 7\ \(1\)\ \(1\).png);
     position: relative;
 }
+
 .fourcard{
-    width: 280px;
-    height: 370px;
-    background-image: url(./images/Rectangle\ 6.png);
+    width: 240px;
+    height: 280px;
+    background-image: url(./images/Rectangle\ 5\ \(1\)\ \(2\).png);
 }
+
 .buton{
     position: absolute;
     width: 50px;
-    top: 170px;
-    left: 120px;
+    top: 100px;
+    left: 100px;
+    cursor: pointer;
+}
+.buton:hover{
+    background-color: #0B0223;
+    /* background: #0b022317; */
 }
 .container p{
-    padding-top: 390px;
+    padding-top: 300px;
 }
 .sectionsecond{
     margin-top: 150px;
@@ -331,6 +348,7 @@ main{
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
 }
 
+/* footer section from here  */
 
 .footerone{
     background: #0B0223;
@@ -388,4 +406,12 @@ main{
     font-size: 16px;
     font-weight: 500;
     text-align: center;
+}
+
+
+
+
+
+@media screen and (max-width: 576px) {
+    
 }
