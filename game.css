@@ -9,9 +9,6 @@
     font-family: 'Roboto Slab', serif;
     font-family: 'Work Sans', sans-serif;
 }
-body{
-    /* max-width: 1280px; */
-}
 nav{
     background: #FFF;
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
@@ -81,13 +78,14 @@ nav li{
 .headcontainer{
     background-image: url(./images/Group\ 14.png);
     fill: linear-gradient(223deg, rgba(140, 87, 238, 0.03) 0%, rgba(241, 68, 174, 0.03) 100%);
-    background-size: 51vw;
+    background-size: 51vw 73vh;
     background-repeat: no-repeat;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 40px;
+    /* padding: 40px; */
 }
+
 .onebtn{
     color: #FFF;
     font-size: 20px;
@@ -109,10 +107,18 @@ nav li{
     border: none;
 }
 .onediv{
+    padding-bottom: 20px;
     /* background-image: url(./images/Group\ 14.png); */
 }
+.oneimage{
+    /* padding-top: 20px; */
+    padding-bottom: 0px;
+}
 .oneimage img{
-    width: 480px;
+    width: 500px;
+    /* padding-top: 20px; */
+    /* height: 400px; */
+    padding-bottom: 0px;
 }
 .onediv h3{
     color: #0B0223;
@@ -139,8 +145,66 @@ nav li{
 }
 /* header section end here  */
 
-
-
+.sectionfirst{
+    background: #f1e3eb88;
+    
+    height: 600px;
+}
+.twomore{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.twodiv img{
+    width: 600px;
+    padding-top: 100px;
+    padding-left: 80px;
+}
+.twohead h3{
+    text-align: right;
+    font-size: 48px;
+    font-weight: 700;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-bottom: 20px;
+}
+.twopara{
+    color: #534C64;
+    text-align: right;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding-bottom: 25px;
+}
+.twohead button{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 48px;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    padding: 15px 40px;
+    border: none;
+}
+.twohead{
+    text-align: right;
+    padding-top: 100px;
+    padding-right: 80px;
+}
+#paratwo{
+    font-weight: bolder;
+}
+.twosecondpara{
+    color: #534C64;
+text-align: right;
+font-family: Work Sans;
+font-size: 24px;
+font-weight: 500;
+line-height: 45px;
+padding-top: 25px;
+}
 .headpara{
     text-align: center;
 }
@@ -166,9 +230,7 @@ nav li{
     line-height: 30px;
     padding-bottom: 30px;
 }
-main{
-    margin-top: 80px;
-}
+
 .container{
     display: flex;
     justify-content: center;
@@ -223,8 +285,11 @@ main{
 }
 .sectionsecond{
     margin-top: 150px;
-    margin-left: 200px;
+    padding-left: 150px;
     
+}
+.sectiontwo{
+    margin-top: 80px;
 }
 .secondcontainer{
     display: flex;
@@ -238,7 +303,10 @@ main{
 .imagetwo{
     margin-top: -160px;
     width: 200px;
-    margin-left: 70px;
+    padding-left: 70px;
+}
+.secondimg{
+    margin-right: 85px;
 }
 .head{
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
@@ -259,6 +327,117 @@ main{
     font-weight: 400;
     line-height: 30px;
 }
+
+.career{
+    background-color: #F948B2;
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    width: 100%;
+    height: 700px;
+    margin-top: 100px;
+}
+.careerone{
+    padding-left: 150px;
+}
+.careermain{
+    display: flex;
+    align-items: center;
+}
+.careerflex{
+    display: flex;
+    justify-content: space-between;
+}
+.careerhead{
+    color: #FFF;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+    padding-bottom: 25px;
+}
+.careerparaone{
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding-bottom: 20px;
+}
+.careerparatwo{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 40px;
+    padding-bottom: 25px;
+}
+.careerparathree{
+    color: #FFF;
+    text-align: right;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 40px;
+}
+.careerbtn{
+    /* font-family: Work Sans; */
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 48px;
+    background: #FFF;
+    padding: 15px 40px;
+    border: none;
+    color: #FF42A5;
+}
+
+
+
+
+
+/* .careercontainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} */
+/* .careerfirst p{
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+} */
+/* .careerfirst h1{
+    color: #FFF;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+} */
+/* .careersecond{
+    display: flex;
+    justify-content: end;
+} */
+/* .careerimg{
+    width: 50%;
+    height: 100%;
+} */
+/* .careerhead{
+    /* padding-left: 160px; */
+    /* padding-bottom: 30px; */
+    
+/* } */
+/* .careermix{
+    text-align: center;
+}
+.careerpara{
+    /* padding-left: 165px; */
+    /* padding-bottom: 25px; */
+/* } */ 
+.careerimg img{
+    width: 580px;
+    height: 700px;
+}
+/* .careersecond p{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 40px;
+    padding-bottom: 25px;
+} */
 .hovertext{
     display: flex;
     flex-wrap: wrap;
@@ -266,8 +445,29 @@ main{
     align-items: center;
     gap: 30px;
 }
+/* .careerthird p{
+    color: #FFF;
+    text-align: end;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 40px */
+/* } */
+.careersecond button{
+    /* font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 48px;
+    background: #FFF;
+    padding: 15px 40px;
+    border: none;
+    color: #FF42A5; */
+}
+.secondtext{
+    /* padding-right: -50px; */
+}
 .hola:hover{
-    border: 1px solid #FF42A5;
+    border: 2px solid #FF42A5;
     border-radius: 50px;
     padding: 10px;
     color: #FF42A5;
@@ -353,7 +553,16 @@ main{
     height: 280px;
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
 }
-
+.hmm{
+    border: 1px solid #FF42A5;
+    border-radius: 50px;
+    padding: 10px;
+    color: #e70a7d;
+    cursor: pointer;
+}
+.hmm:hover{
+    border: 2px solid #FF42A5;
+}
 /* footer section from here  */
 
 .footerone{
@@ -415,109 +624,137 @@ main{
 }
 
 
-
-
-
 @media screen and (max-width: 576px) {
     body{
-        /* max-width: 1100px; */
-        
+        overflow-x: hidden;
     }
     .navdiv, .navtwo ul{
         flex-direction: column;
         gap: 30px;
+        justify-content: center;
     }
     .headcontainer{
         flex-direction: column;
-        gap: 40px;
-        background-size: 100vw;
-        /* background-size: 75vh; */
-    }
-    .oneimage img{
-        width: 100%;
-        /* padding-right: 50px; */
-        margin-top: 80px;
+        justify-content: center;
+        background-size: 100% 330px;
     }
     .onediv h3{
         font-size: 30px;
+        text-align: center;
+        padding-top: 50px;
     }
     .onediv h1{
-        font-size: 70px;
+        font-size: 50px;
+        text-align: center;
     }
-    .onediv p{
+    .onebtn, .twobtn{
         font-size: 15px;
+        padding: 10px 30px;
     }
-    .onediv{
-        padding-top: 10px;
-
+    .oneimage img{
+        width: 80%;
+        padding: 50px;
+    }
+    .twomore{
+        flex-direction: column-reverse;
+    }
+    .twohead{
+        padding: 45px;
+        text-align: center;
+    }
+    .twohead h3{
+        padding-right: 30px;
+    }
+    .twosecondpara{
+        text-align: center;
+    }
+    .twopara{
+        text-align: justify;
+    }
+    .sectionfirst{
+        height: 900px;
+    }
+    .twodiv img{
+        width: 80%;
+        padding: 40px;
+    }
+    .headpara h3{
+        padding: 10px;
+    }
+    .headpara p{
+        padding: 10px;
     }
     .container{
         flex-direction: column;
-        gap: 80px;
         align-items: center;
-    }
-    .sectiontwo{
-        padding: 50px;
-    }
-    main{
-        margin-top: 50px;
+        padding-top: 30px;
+        gap: 70px;
     }
     .secondcontainer{
         flex-direction: column;
     }
-    .secondimg{
-        
-    }
     .secondtext{
         text-align: center;
-        padding-bottom: 50px;
+        padding-bottom: 30px;
+        padding-right: 130px;
     }
-    .secondtext h3{
-        font-size: 30px;
-        /* font-weight: 500; */
-        /* break-after: avoid; */
-    }
-    .sectionsecond{
-        margin-right: 200px;
+    .secondimg{
+        padding-right: 130px;
     }
     .imageone{
         width: 300px;
-        margin-right: 80px;
     }
-    .hovertext{
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
+    .imagetwo{
+        width: 130px;
+        margin-top: -100px;
+    }
+    .career{
+        height: 1500px;
+    }
+    .careermain{
+        flex-direction: column;
         
     }
-    
+    .careerone{
+        padding-left: 30px;
+        padding-top: 50px;
+        padding-right: 30px;
+    }
+    .careerhead{
+        
+    }
+    .careerimg img{
+        width: 400px;
+        padding-top: 50px;
+    }
+    .careerflex{
+        padding-top: 30px;
+    }
     .sectionfour{
-        height: 500px;
-        padding: 50px 30px 0px 30px;
+        height: 600px;
     }
     .footerone{
-        height: 800px;
+        height: 600px;
     }
     .footerpara{
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        /* padding: 40px; */
-        padding-left: 40px;
-        padding-right: 30px;
-        
+        gap: 10px;
+        padding: 20px 0px 10px 30px;
     }
     .footericon{
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        padding-left: 80px;
-
-        
+        padding: 20px 0px 20px 70px;
     }
     .footerlast{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        padding-left: 50px;
+        gap: 10px;
+        padding: 10px 0px 10px 60px;
     }
     .finish{
-        padding: 50px;
+        padding: 10px 20px 0px 20px;
     }
 }
+
