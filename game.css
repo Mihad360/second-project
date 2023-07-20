@@ -719,19 +719,15 @@ padding-top: 25px;
         margin-top: -100px;
     }
     .career{
-        height: 1500px;
+        height: 1550px;
     }
     .careermain{
-        flex-direction: column;
-        
+        flex-direction: column;  
     }
     .careerone{
         padding-left: 30px;
         padding-top: 50px;
         padding-right: 30px;
-    }
-    .careerhead{
-        
     }
     .careerimg img{
         width: 400px;
@@ -741,7 +737,7 @@ padding-top: 25px;
         padding-top: 30px;
     }
     .sectionfour{
-        height: 600px;
+        height: 650px;
     }
     .footerone{
         height: 600px;
@@ -768,3 +764,84 @@ padding-top: 25px;
     }
 }
 
+
+@media screen and (min-width: 576px) and (max-width: 992px) {
+    header{
+        overflow-x: hidden;
+    }
+    main{
+        overflow-x: hidden;
+    }
+    footer{
+        overflow: hidden;
+    }
+    .headcontainer{
+        flex-direction: column;
+        background-size: 100% 420px;
+    }
+    .oneimage img{
+        padding: 70px;
+    }
+    .onediv{
+        padding-top: 50px;
+    }
+    .sectionfirst{
+        height: 1100px;
+    }
+    .twomore{
+        flex-direction: column-reverse;
+    }
+    .twodiv img{
+        padding-right: 80px;
+    }
+    .container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding: 30px 150px 0px 170px;
+        gap: 70px;
+    }
+    .secondtext{
+        padding-bottom: 50px;
+    }
+    .sectionsecond{
+        /* padding: 0px 500px 0px 100px; */
+    }
+    .secondcontainer{
+        flex-direction: column;
+    }
+    .imageone{
+        /* width: 300px; */
+        padding-right: 200px;
+    }
+    .imagetwo{
+        width: 150px;
+        padding-top: 50px;
+    }
+    .careermain{
+        flex-direction: column;
+    }
+    .career{
+        height: 1400px;
+    }
+    .careerone{
+        padding: 70px ;
+    }
+    .careerimg img{
+        width: 700px;
+    }
+    .sectionfour{
+        height: 500px;
+    }
+    .footerpara{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+        padding: 30px 0px 0px 100px;
+    }
+    .footerlast{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        padding: 50px 100px 0px 180px;
+    }
+}
