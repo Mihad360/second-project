@@ -672,7 +672,8 @@ padding-top: 25px;
         text-align: center;
     }
     .twohead h3{
-        padding-right: 30px;
+        /* padding-right: 100px; */
+        text-align: center;
     }
     .twosecondpara{
         text-align: center;
