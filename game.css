@@ -628,6 +628,15 @@ padding-top: 25px;
     body{
         overflow-x: hidden;
     }
+    header{
+        overflow-x: hidden;
+    }
+    main{
+        overflow-x: hidden;
+    }
+    footer{
+        overflow-x: hidden;
+    }
     .navdiv, .navtwo ul{
         flex-direction: column;
         gap: 30px;
